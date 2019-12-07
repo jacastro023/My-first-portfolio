@@ -1,7 +1,10 @@
+/* working with the navigation bar */
 .topnav {
     background-color: white;
-    overflow:hidden;
+    overflow:hidden ;
+    position: relative;
 }
+/* trying to set up style for the ancor tags */
 .topnav a {
     float: left;
     color: black;
@@ -13,6 +16,8 @@
   }
   #name{
       padding: 25px;
+      margin-left: 270px;
+
   }
   #portfolio{
       float: right;
@@ -23,34 +28,41 @@
   #contact{
       float: right;
   }
+  /* setting the color for the name */
   .topnav a.active {
     background-color: #4aaaa5;
     color: white;
   }
+  /* making the color change when hovering over it */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: red;
     color: black;
   }
+  /* placing the image of the left side of the container */
   img{
       float: left;
   }
+  /* trying to set the dimensions of the container */
   .container{
       align-content:center;
       width: 960px;
-      height: 550px;
+      height: 512px;
       margin: 0 auto;
       border: black;
       border-style: solid;
       font-size: 24px;
       background: white;
   }
+  /* adjusting the footer and adding a top border with a different color */
   footer{
       background-color: gray;
-      position: relative;
-      height: 80px;
+      position: fixed;
+      bottom: 0;
+      height: 40px;
       width: 100%; 
       border-top: 8px solid #4aaaa5
   }
+/* trying to add a small copyright sign in the footer */
   #copyright{
       position: absolute;
       width: 100%;
@@ -58,18 +70,48 @@
       bottom: 0;
       text-align: center;
   }
+  /* tried adding the background texture */
   .back{
   background-image: url(../images/gravel.png); 
   align-content: center;
 }
+/* wanted to end the float flow */
 .clearfix{
     clear: both;
     padding: 10px;
 }
+/* setting up the font-family for the heading */
 h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
 }
+/* setting up the font-family for any other text */
 p{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+}
+/* creating a space between the nav bar and content */
+.break{
+    height: 15px;
+    border: 0;
+}
+/* created a space before the footer */
+.break2{
+    height: 120px;
+    border: 0;
+}
+/* adding box to write in messages */
+#message{
+    height: 200px;
+    width: 95%;
+    margin-left: 20px;
+}
+/* creating box inwhich to write name */
+#name1{
+    width: 95%;
+    margin-left: 20px;
+}
+/* made box for email */
+#email{
+    width: 95%;
+    margin-left: 20px;
 }

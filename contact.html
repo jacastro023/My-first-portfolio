@@ -1,27 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <div class="topnav">
-        <a class="active" href="#name" id="name">Jose Castro</a>
-        <a id="about" href="#about">About</a>
-        <a id="portfolio" href="#portfolio">portfolio</a>
-        <a id="contact" href="#contact" id="contact">contact</a>
-      </div>
-      <hr>
-      <div class="container">
-          <h1>About ME</h1>
-          <hr>
-          <img src="http://placehold.it/200/200" alt="my picture">
-      </div>
-      <footer>
 
-      </footer>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- adding the same navigation bar as other htmls -->
+  <div class="topnav">
+    <a class="active" href="#name" id="name">Jose Castro</a>
+    <a id="about" href="index.html">About</a>
+    <a id="portfolio" href="portfolio.html">portfolio</a>
+    <a id="contact" href="contact.html" id="contact">contact</a>
+  </div>
+  <!-- adding the same background texture -->
+  <div class="back">
+    <!-- adding some separating space -->
+    <hr class="break">
+    <!-- placed a container around the info -->
+    <div class="container">
+      <h1>Contact</h1>
+      <!-- created a break -->
+      <hr>
+      <!-- made a form to input contact info -->
+      <form>
+        <label for="name">Name
+        </label>
+        <br>
+        <input type="text" id="name1" placeholder="Your Name Here...">
+        <br>
+        <label for="email">email
+        </label>
+        <br>
+        <input type="text" id="email" placeholder="example@gmail.com">
+        <br>
+        <label for="message">
+          Message
+        </label>
+        <br>
+        <textarea id="message" placeholder="Additional info here....">
+
+              </textarea>
+        <input type="submit" value="submit">
+      </form>
+    </div>
+    <hr class="break2">
+  </div>
+  <!-- added a footer -->
+  <footer>
+    <p id="copyright">copyright @</p>
+  </footer>
 </body>
+
 </html>
