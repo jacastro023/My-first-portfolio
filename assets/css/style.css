@@ -18,7 +18,7 @@
       color: white;
       padding: 15px;
       margin-left: 278px;
-      font-size: 40px;
+      font-size: 30px;
 
   }
   /* setting color and size of the portfolio tag */
@@ -35,7 +35,7 @@
       padding-top: 0;
       padding-bottom: 0;
       color: #cacaca;
-      margin-left: 480px;
+      margin-left: 530px;
       border-right-style: solid;
       border-right-color:	#d8d8d8;
       margin-top: 40px;
@@ -70,7 +70,7 @@
   .container{
       align-content:center;
       width: 960px;
-      height: 100%;
+      height: auto;
       margin: 0 auto;
       border: black;
       border-width: 1px;
@@ -78,6 +78,7 @@
       border-color: #cacaca;
       font-size: 24px;
       background: white;
+      position: relative;
   }
   /* adjusting the footer and adding a top border with a different color */
   footer{
@@ -112,6 +113,7 @@ h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
     margin-left: 15px;
+    font-size: 24px;
 }
 /* setting up the font-family for any other text */
 p{
@@ -127,8 +129,8 @@ p{
     border-top-style: solid;
 }
 /* created a space before the footer */
-.break2{
-    height: 120px;
+.break2 {
+    height: 200px;
     border: 0;
 }
 /* adding box to write in messages */
@@ -172,4 +174,9 @@ p{
 /* adjusting the positoon of the tags to be equal to the boxes of the form */
 label{
     margin-left: 20px;
+}
+/* getting rid of the scroll bar on the website */
+.break5{
+    height: 150px;
+    border: 0;
 }
