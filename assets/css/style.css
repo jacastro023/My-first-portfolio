@@ -7,26 +7,47 @@
 /* trying to set up style for the ancor tags */
 .topnav a {
     float: left;
-    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    margin: 0 0 0 92px;
   }
+  /* making my name bigger and bolder */
   #name{
-      padding: 25px;
-      margin-left: 270px;
+      font-weight: 900;
+      color: white;
+      padding: 15px;
+      margin-left: 278px;
+      font-size: 40px;
 
   }
+  /* setting color and size of the portfolio tag */
   #portfolio{
-      float: right;
+      padding-top: 0;
+      padding-bottom: 0;
+      color: #cacaca;
+      border-right-style: solid;
+      border-right-color:	#d8d8d8;
+      margin-top: 40px;
   }
+  /* trying to set the position of other links in the navbar */
   #about{
-      float: right;
+      padding-top: 0;
+      padding-bottom: 0;
+      color: #cacaca;
+      margin-left: 480px;
+      border-right-style: solid;
+      border-right-color:	#d8d8d8;
+      margin-top: 40px;
   }
+  /* setting the size and color of the contact */
   #contact{
-      float: right;
+      padding-top: 0;
+      padding-bottom: 0;
+      color: #cacaca;
+      border-right-style: solid;
+      border-right-color:	#d8d8d8;
+      margin-top: 40px;
   }
   /* setting the color for the name */
   .topnav a.active {
@@ -41,15 +62,20 @@
   /* placing the image of the left side of the container */
   img{
       float: left;
+      width: 200px;
+      height: 200px;
+      margin-left: 15px;
   }
   /* trying to set the dimensions of the container */
   .container{
       align-content:center;
       width: 960px;
-      height: 512px;
+      height: 100%;
       margin: 0 auto;
       border: black;
+      border-width: 1px;
       border-style: solid;
+      border-color: #cacaca;
       font-size: 24px;
       background: white;
   }
@@ -69,6 +95,7 @@
       font-size: 10px;
       bottom: 0;
       text-align: center;
+      color: #cacaca;
   }
   /* tried adding the background texture */
   .back{
@@ -84,6 +111,7 @@
 h1{
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4aaaa5;
+    margin-left: 15px;
 }
 /* setting up the font-family for any other text */
 p{
@@ -93,6 +121,10 @@ p{
 .break{
     height: 15px;
     border: 0;
+    margin: 0;
+    border-top: 2px;
+    border-top-color: #cacaca;
+    border-top-style: solid;
 }
 /* created a space before the footer */
 .break2{
@@ -113,5 +145,31 @@ p{
 /* made box for email */
 #email{
     width: 95%;
+    margin-left: 20px;
+}
+/* set the position of submit button */
+.button{
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* adjusting the position of the form */
+.form{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* creating a space and a diving line */
+.break3{
+    border: 0;
+    margin: 15px;
+    border-top: 2px;
+    border-top-style: solid;
+    border-top-color: #cacaca;
+}
+/* adjusting the positoon of the tags to be equal to the boxes of the form */
+label{
     margin-left: 20px;
 }
