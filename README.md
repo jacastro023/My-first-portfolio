@@ -25,11 +25,11 @@
 
 * This shows how I meant all of my pages to be viewed and hope for them to stay working.
 
-* ![About me Page](assets\images\aboutme.png)
+* ![About me Page](assets/images/aboutme.png)
 
-* ![contact page](assets\images\contact.png)
+* ![contact page](assets/images/contact.png)
 
-* ![portfolio page](assets\images\portfolio.png)
+* ![portfolio page](assets/images/portfolio.png)
 
 ## Improvements-needed
 
